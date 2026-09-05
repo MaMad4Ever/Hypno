@@ -44,3 +44,8 @@ git clone git@github.com:MaMad4Ever/Hypno.git
 Hypno is intended for authorized security testing and educational purposes only.
 
 Only use it on websites and applications where you have **permission to perform security testing**.
+
+# TODO — Hypno
+
+[ ] XML attribute value extraction
+[ ] Clean up code
