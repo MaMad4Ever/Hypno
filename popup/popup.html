@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hypno</title>
+    <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+
+    <header>
+        <div class="brand">
+          <img src="../icons/icon.png" alt="Hypno">
+          <h1>Hypno</h1>
+        </div>
+        <span>Get all Endpoint & Parameter</span>
+    </header>
+
+    <main>
+        <div class="actions">
+            <button id="scanBtn">Scan Page</button>
+        </div>
+
+        <div class="tabs">
+            <button class="tab active" data-tab="endpoints">Endpoints</button>
+            <button class="tab" data-tab="parameters">Parameters</button>
+        </div>
+
+        <div class="toolbar">
+            <span id="count">Endpoints: 0</span>
+
+            <div>
+              <button id="copyAllBtn">Copy All</button>
+              <button id="exportBtn">Export</button>
+          </div>
+        </div>
+
+        <section id="results">
+            <p class="empty">No results yet.</p>
+        </section>
+    </main>
+
+    <script src="popup.js"></script>
+</body>
+</html>

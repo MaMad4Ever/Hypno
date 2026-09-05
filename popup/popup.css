@@ -1,0 +1,139 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 420px;
+    min-height: 500px;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #111;
+    color: #eee;
+}
+
+header {
+    padding: 16px;
+    border-bottom: 1px solid #333;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 22px;
+}
+
+header span {
+    font-size: 12px;
+    color: #888;
+}
+
+main {
+    padding: 16px;
+}
+
+.actions {
+    margin-bottom: 15px;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.brand img {
+    width: 38px;
+    height: 38px;
+    object-fit: contain;
+    display: block;
+}
+
+.brand h1 {
+    margin: 0;
+    padding: 0;
+    line-height: 22px;
+    font-size: 22px;
+}
+
+#scanBtn {
+    width: 100%;
+    padding: 10px;
+    border: 0;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.tabs {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 15px;
+}
+
+.tab {
+    flex: 1;
+    padding: 8px;
+    background: #222;
+    color: #aaa;
+    border: 1px solid #333;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.tab.active {
+    color: #fff;
+}
+
+#results {
+    max-height: 350px;
+    overflow-y: auto;
+}
+
+.empty {
+    text-align: center;
+    color: #666;
+}
+.endpoint {
+    padding: 8px;
+    margin-bottom: 5px;
+    background: #1c1c1c;
+    border: 1px solid #333;
+    border-radius: 4px;
+    font-size: 12px;
+    word-break: break-all;
+}
+.toolbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+#count {
+    font-size: 12px;
+    color: #888;
+}
+
+#copyAllBtn {
+    padding: 6px 10px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    background: #222;
+    color: #eee;
+    cursor: pointer;
+}
+
+#copyAllBtn:hover {
+    background: #333;
+}
+#exportBtn {
+    padding: 6px 10px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    background: #222;
+    color: #eee;
+    cursor: pointer;
+}
+
+#exportBtn:hover {
+    background: #333;
+}
