@@ -47,5 +47,5 @@ Only use it on websites and applications where you have **permission to perform 
 
 # TODO — Hypno
 
-[ ] XML attribute value extraction
-[ ] Clean up code
+- [ ] XML attribute value extraction
+- [ ] Clean up code
