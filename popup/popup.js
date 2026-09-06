@@ -40,12 +40,16 @@ scanBtn.addEventListener("click", async () => {
 });
 
 copyAllBtn.addEventListener("click", async () => {
-    if (!currentEndpoints.length) {
+    const data = activeTab === "endpoints"
+        ? currentEndpoints
+        : currentParameters;
+
+    if (!data.length) {
         return;
     }
 
     await navigator.clipboard.writeText(
-        currentEndpoints.join("\n")
+        data.join("\n")
     );
 
     copyAllBtn.textContent = "Copied!";
