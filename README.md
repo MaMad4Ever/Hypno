@@ -20,7 +20,7 @@ Built with a focus on simplicity, useful results, and manual web security testin
 ### Firefox
 1. Clone the repository:
 ```bash
-git clone git@github.com:MaMad4Ever/Hypno.git
+git clone https://github.com/MaMad4Ever/Hypno.git
 ```
 2. Open Firefox and navigate to:
 `about:debugging`
