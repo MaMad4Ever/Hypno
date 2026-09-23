@@ -17,7 +17,13 @@ Built with a focus on simplicity, useful results, and manual web security testin
 - 🦊 Built for Firefox
 
 ## 🚀 Installation
-### Firefox
+### Firefox Add-ons
+Hypno is now officially available on the Firefox Add-ons store.
+
+#### 👉 Install Hypno:
+https://addons.mozilla.org/en-US/firefox/addon/hypno/
+
+### Manual Installation
 1. Clone the repository:
 ```bash
 git clone https://github.com/MaMad4Ever/Hypno.git
